@@ -5,7 +5,6 @@
   "type": "library",
   "license": "MIT",
   "require": {
-      "jquery": "^1.6.0",
       "rwoverdijk/assetmanager": "*"
   },
   "authors": [{
