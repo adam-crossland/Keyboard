@@ -7,4 +7,9 @@ return array(
 			),
 		),
 	),
+	'view_helpers' => array(
+		'invokables' => array(
+			'keyboard' => 'Keyboard\View\Helper\Keyboard',
+		),
+	),
 );
