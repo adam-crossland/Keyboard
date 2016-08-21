@@ -1,11 +1,12 @@
 {
-  "name": "mottie/keyboard",
+  "name": "adam-crossland/keyboard",
   "description": "A jQuery on-screen keyboard (OSK) plugin that works in the browser.",
-  "homepage": "https://github.com/Mottie/Keyboard",
-  "type": "component",
+  "homepage": "https://github.com/adam-crossland/Keyboard",
+  "type": "library",
   "license": "MIT",
   "require": {
-    "jquery": "^1.6.0"
+      "jquery": "^1.6.0",
+      "rwoverdijk/assetmanager": "*"
   },
   "authors": [{
     "name": "Jeremy Satterfield",
@@ -48,5 +49,13 @@
         "dist/js/jquery.mousewheel.min.js"
       ]
     }
-  }
+  },
+    "autoload": {
+        "psr-4": {
+            "Keyboard\\": [
+                "src/",
+                ""
+            ]
+        }
+    }
 }
